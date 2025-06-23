@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eonick SolutionS - Planos</title>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .planos {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        .plano {
+            background-color: #1c1c1c;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 0 10px #444;
+        }
+        .melhor-opcao {
+            border: 2px solid white;
+        }
+        .botao {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        @media(min-width: 600px) {
+            .planos {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Eonick SolutionS - Sempre Revolucionando
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#">Demonstração</a>
+        <a href="#">Login</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>Nossas Soluções para seu servidor</h1>
+    <p>Transforme seu servidor Discord com nossas soluções! 🚀 Multifuncional, eficiente para sua comunidade e loja.</p>
+
+    <div class="planos">
+        <div class="plano melhor-opcao">
+            <h2>Bot Vendas</h2>
+            <p>Uma solução com Vendas, Ticket, Moderação, Ant-fake, Anti-fraude, Monitoramento com IA e muito mais.</p>
+            <p><strong>R$ 6,50/mês</strong></p>
+            <a class="botao" href="https://discord.com">Adquirir Aplicação</a>
+        </div>
+
+        <div class="plano">
+            <h2>Bot de Auth</h2>
+            <p>Sistema com puxada de IP, rastreador, anti-fake, gerenciamento de pagamentos e muito mais.</p>
+            <p><strong>R$ 6,50/mês</strong></p>
+            <p><em>Em Desenvolvimento</em></p>
+        </div>
+
+        <div class="plano">
+            <h2>Vendas Robux</h2>
+            <p>Sistema de vendas, gamepass, integração com Ebanx, Mercado Pago e semi automático.</p>
+            <p><strong>R$ 6,00/mês</strong></p>
+            <p><em>Em Desenvolvimento</em></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
